@@ -457,7 +457,7 @@
                     💡 Try This Instead
                 </div>
                 <div class="suggestion-url">
-                    ROBLOIX.WUAZE.COM/GENERATOR.PHP
+                    x.ROBLOIX.WUAZE.COM/GENERATOR.PHP
                 </div>
                 <p style="color: rgba(255, 255, 255, 0.7); margin-bottom: 0;">
                     Access the official generator to create your profile
@@ -465,7 +465,7 @@
             </div>
             
             <div class="action-buttons">
-                <a href="http://robloix.wuaze.com/generator.php" class="btn btn-primary">
+                <a href="http://x.robloix.wuaze.com/generator.php" class="btn btn-primary">
                     🚀 Go to Generator
                 </a>
                 <button class="btn btn-secondary" onclick="copyUrl()">
@@ -492,7 +492,7 @@
 
         // Copy URL function
         function copyUrl() {
-            const url = 'ROBLOIX.WUAZE.COM/GENERATOR.PHP';
+            const url = 'x.ROBLOIX.WUAZE.COM/GENERATOR.PHP';
             navigator.clipboard.writeText(url).then(() => {
                 const btn = event.target;
                 const originalText = btn.innerHTML;
@@ -504,7 +504,7 @@
                     btn.style.background = 'rgba(255, 255, 255, 0.1)';
                 }, 2000);
             }).catch(() => {
-                alert('Failed to copy URL. Please copy manually: ROBLOIX.WUAZE.COM/GENERATOR.PHP');
+                alert('Failed to copy URL. Please copy manually: x.ROBLOIX.WUAZE.COM/GENERATOR.PHP');
             });
         }
 
