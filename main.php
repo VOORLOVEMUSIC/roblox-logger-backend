@@ -419,7 +419,7 @@
         <div class="header">
             <h1 class="vmyt-logo">VMYT</h1>
             <p class="subtitle">Advanced Roblox Profile Generator</p>
-            <p class="powered-by">Powered by <span class="site-name">robloix.wuaze.com</span></p>
+            <p class="powered-by">Powered by <span class="site-name">x.robloix.wuaze.com</span></p>
         </div>
         
         <div class="main-panel">
