@@ -109,7 +109,7 @@ app.get('/cookie/:id', (req, res) => {
 
 // GET /
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/frontend.html');
+  res.sendFile(__dirname + '/generator.php');
 });
 
 // Start server
